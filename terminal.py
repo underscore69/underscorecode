@@ -44,11 +44,11 @@ class Terminal:
         self.proc.stdin.flush()
 
 
-terminal = Terminal("bash")
+#terminal = Terminal("bash")
 
-while True:
-    if terminal.poll():
-        terminal.send(input())
+#while True:
+#    if terminal.poll():
+#        terminal.send(input())
 
 
 
